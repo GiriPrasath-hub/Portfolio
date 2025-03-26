@@ -72,6 +72,15 @@
         h4{
             font-size: 15px;
         }
+        .container{
+            margin-left: 8%;
+        }
+        .col-md-6{
+            padding-left: 10%;
+        }
+        form{
+            padding-left: 38%;
+        }
     </style>
 </head>
 <body>
@@ -83,5 +92,78 @@
             <h4 class="d"><a href="./about.html">About</a></h4>
             <h4 class="e"><a href="./cntct.html">Contact</a></h4>
        </nav></div>
+       
+  <!-- Contact Page Header Section -->
+  <div class="container mt-5">
+    <h1 class="display-4 text-center">
+      <i class="bi bi-person-circle"></i> Contact
+    </h1>
+    <hr class="w-25 mx-auto">
+  </div>
+
+  <!-- Contact Page Content Section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>
+          <i class="bi bi-house-door"></i> Address
+        </h2>
+        <p>123, Main Street, Near City Mall, Mumbai, Maharashtra - 400001</p>
+        <h2>
+          <i class="bi bi-envelope"></i> Email
+        </h2>
+        <p>example@email.com</p>
+        <h2>
+          <i class="bi bi-phone"></i> Phone
+        </h2>
+        <p>+91 1234567890</p>
+      </div>
+      <div class="col-md-6">
+        <h2>
+          <i class="bi bi-linkedin"></i> Professional Profile
+        </h2>
+        <p>Linkedin Profile URL</p>
+        <h2>
+          <i class="bi bi-github"></i> GitHub Profile
+        </h2>
+        <p>GitHub Profile URL</p>
+        <h2>
+          <i class="bi bi-twitter"></i> Twitter Handle
+        </h2>
+        <p>Twitter Handle URL</p>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!-- Contact Page Form Section -->
+  <center>
+    <div class="container mt-5">
+        <h2 class="text-center">
+          <i class="bi bi-envelope"></i> Get in Touch
+        </h2>
+        <hr class="w-25 mx-auto">
+        <div class="row">
+          <div class="col-md-12">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          </div>
+        </div>
+      </div>
+  </center>
 </body>
 </html>
